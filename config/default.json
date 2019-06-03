@@ -1,0 +1,11 @@
+{
+  "app": {
+    "root": "https://pocket.email"
+  },
+  "pocket": {
+   "consumer_key": "85085-cebe98b4771127597fcf9f1b"
+  },
+  "mailgun": {
+    "api_key": "17acee3b582bbce36c2c622472c4521e-2416cf28-848357bf"
+  }
+}

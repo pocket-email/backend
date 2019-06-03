@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_PATH=./ node ./bin/www",
+    "dev": "NODE_PATH=./ PORT=3001 ts-node-dev --transpileOnly --no-notify ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^3.0.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "ts-node": "^8.0.3",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.1"
+  }
+}
